@@ -7,6 +7,7 @@
     /* background color */
     --background-primary-color : rgb(39, 43, 43);
     --background-fill-color : rgb(176, 237, 211);
+    --background-food-color : rgb(237, 176, 176);
 
     /* font-color */
     --font-primary-color : #D8D8D8;
@@ -81,4 +82,8 @@ section .infos{
 
 .fill{
     background-color: var(--background-fill-color);
+}
+
+.food{
+    background-color: var(--background-food-color);
 }
