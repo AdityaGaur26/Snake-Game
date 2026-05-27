@@ -1,4 +1,13 @@
 const board = document.querySelector(".board")
+const modal = document.querySelector(".modal")
+const startBtn = document.querySelector(".start-btn")
+
+startBtn.addEventListener("click", () => {
+    modal.style.display = "none"
+    moving = setInterval(() => {
+        render()
+    }, 400)
+})
 
 const boxWidth = 50;
 const boxheight = 50;
@@ -76,13 +85,6 @@ function render() {
 
     }
 
-
-moving = setInterval(() => {
-
-
-
-    render()
-}, 400)
 
 window.addEventListener("keydown", (e) => {
     if (e.key === "ArrowRight" || e.key === "d") {
