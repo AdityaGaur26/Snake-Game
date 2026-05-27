@@ -81,13 +81,11 @@ section .infos {
     grid-template-rows: repeat(auto-fill, minmax(50px, 1fr));
 }
 
-.block {
-    border: 1px solid var(--border-block-color);
 
-}
 
 .fill {
     background-color: var(--background-fill-color);
+    border-radius: var(--border-space-l);
 }
 
 .food {
